@@ -1,0 +1,40 @@
+name: wordnetgrid
+description: A minimal, modern word chain puzzle game for Android.
+publish_to: 'none'
+version: 1.0.0+2
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+  shared_preferences: ^2.2.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  games_services: ^4.0.0
+  google_fonts: ^6.1.0
+  animate_do: ^3.3.2
+  uuid: ^4.2.2
+  equatable: ^2.0.5
+  json_annotation: ^4.8.1
+  path_provider: ^2.1.1
+  gap: ^3.0.0
+  google_mobile_ads: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.8
+  riverpod_generator: ^2.3.9
+  json_serializable: ^6.7.1
+  mocktail: ^1.0.3
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/words/
